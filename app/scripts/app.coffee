@@ -16,7 +16,7 @@
 		 </file>
 	 </example>
 ###
-angular.module('angularCmsApp', [
+app = angular.module('angularCmsApp', [
 	'ngCookies',
 	'ngResource',
 	'ngSanitize',
@@ -25,7 +25,8 @@ angular.module('angularCmsApp', [
 	#'$strap.directives'
 	#'cms.Templates'
 ])
-	.config ($routeProvider, $locationProvider) ->
+
+app.config ($routeProvider, $locationProvider) ->
 		
 		routeResolver = 
 			# I will cause a 1 second delay
