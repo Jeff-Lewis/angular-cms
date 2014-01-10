@@ -15,8 +15,8 @@ body.login #header {
 .navbar-inverse { border-bottom: 1px solid #444; }
 footer { padding: 30px 0; font-size: .8em; color: #777; text-align: center; }
 .feature { margin: 5px 10px; }
-.jumbotron { border-bottom: 1px solid #444; background: #111 url(/images/angular-cms-bg.png); color: #fff; }
-.hero-unit { margin: 50px auto 0 auto; width: 300px; font-size: 18px; font-weight: 200; line-height: 30px; background-color: #eee; border-radius: 6px; padding: 60px; overflow: hidden; }
+
+
 .hero-unit h1 { font-size: 60px; line-height: 1; letter-spacing: -1px; }
 
 

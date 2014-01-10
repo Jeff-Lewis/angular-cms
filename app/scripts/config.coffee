@@ -1,4 +1,4 @@
-window.Config =
+Config =
 	baseurl: document.location.origin
 	sitetitle: "angular-cms"
 	sitedesc: "Use this as a starting point when creating a content management system of some sort."
