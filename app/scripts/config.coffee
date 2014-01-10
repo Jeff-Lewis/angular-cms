@@ -1,7 +1,7 @@
 window.Config =
 	baseurl: document.location.origin
 	sitetitle: "angular-cms"
-	sitedesc: "This is the description"
+	sitedesc: "Use this as a starting point when creating a content management system of some sort."
 	sitecopy: "2014 "
 	version: '0.1'
 	email: "jonniespratley@me.com"
@@ -106,7 +106,7 @@ window.Config =
 		 icon: "puzzle-piece"
 		,
 		 id: 1
-		 title: "Media Library"
+		 title: "Media"
 		 href: "/media"
 		 icon: "cloud-download"
 		,
@@ -128,10 +128,10 @@ window.Config =
 
 		#Public menu
 		pub: [
-			#id: 1
-			#title: "Docs"
-			#icon: "book"
-			#href: "/docs"
+			id: 1
+			title: "Docs"
+			icon: "book"
+			href: "/docs"
 		]
 
 		#User menu
