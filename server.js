@@ -86,7 +86,7 @@ var config = {
 	logFormat : '[:date] - [:method] - :url - :status - :response-time ms'
 };
 
-
+//app.use(express.static(__dirname + '/public'));
 //Start the reset server
 var rest = require('./routes/rest').rest;
 	rest.init(config);

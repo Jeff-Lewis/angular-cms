@@ -852,11 +852,13 @@ exports.rest = {
 				app.configure(function() {
 					app.use(express.static(config.staticDir));
 					app.use(express.directory(config.publicDir));
+					//app.use(express.static(__dirname + '/public'));
 					
 					app.use("jsonp callback", true);
 					//app.use(express.json());
-					//app.use(express.urlencoded());
+					app.use(express.urlencoded());
 					app.use(express.bodyParser());
+					//app.all('/api/*', requireAuthentication);
 					
 					// simple logger
 					app.use(function(req, res, next){
