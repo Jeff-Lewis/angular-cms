@@ -49,11 +49,11 @@ window.Config =
 		user: null
 	
 	layout: 
-    	header: "views/header.html"
-    	sidebar: "views/sidebar.html"
-    	content:"views/content.html"
-    	footer: "views/footer.html"
-
+		header: "views/_header.html"
+		sidebar: "views/_sidebar.html"
+		content:"views/_content.html"
+		footer: "views/_footer.html"
+	
 	#I hold the current theme that should be used
 	theme:
 		id: 0

@@ -8,7 +8,9 @@ angular.module('angularCmsApp').controller 'LoginCtrl', ($scope, $rootScope, $co
 	  password: null
 	  remember: false
 	
-  $scope.user = Parse.User.current() if Parse.User.current()
+	$scope.user = $cookieStore.get('App.session.user')
+	$scope.user = Parse.User.current() if Parse.User.current()
+	
 	
 	###
 	Login Method to set the session.
@@ -29,7 +31,7 @@ angular.module('angularCmsApp').controller 'LoginCtrl', ($scope, $rootScope, $co
             message: 'Welcome back....'
             
         	#Set user cookie
-      		$cookieStore.put('App.session.user', user) if user.remember
+      		$cookieStore.put('App.session.user', user) if u.remember
       
       		#Set user session
       		$rootScope.App.session.user = user
@@ -49,9 +51,9 @@ angular.module('angularCmsApp').controller 'LoginCtrl', ($scope, $rootScope, $co
 		Logout method to clear the session.
 		@param {Object} user - A user model containing remember
 		###
-		$scope.logout = (user) ->
+		$scope.logout = (u) ->
 			#Clear cookie
-			$cookieStore.put('App.session.user', null) unless user.remember
+			$cookieStore.put('App.session.user', null) unless u.remember
 
 			#Clear session
 			$rootScope.App.session.user = null
