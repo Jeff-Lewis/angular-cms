@@ -17,8 +17,6 @@
 	 </example>
 ###
 Parse.initialize "fYHs4Flnj7vgVHm9vaFiFTSKt5Mj2Bxf9e93mTOB", "QPFGBNHs0QQHFS54atV71oKppd3gTgaFfQIHP2VW"
-
-
 angular.module('angularCmsApp', [
 	'ngCookies',
 	'ngResource',
@@ -27,8 +25,7 @@ angular.module('angularCmsApp', [
 	'ngAnimate'
 	#'$strap.directives'
 	#'cms.Templates'
-])
-	.config ($routeProvider) ->
+]).config ($routeProvider) ->
 		
 		routeResolver = 
 			# I will cause a 1 second delay
@@ -84,6 +81,7 @@ angular.module('angularCmsApp', [
 				redirectTo: '/'
 
 angular.module('angularCmsApp').controller 'AppCtrl', ['$scope', '$rootScope', '$http', '$log', '$route', '$location', '$routeParams', '$cookieStore', ($scope, $rootScope, $http, $log, $route, $location, $routeParams, $cookieStore) ->
+
 	App = Config
 	App.route = $routeParams;
 	App.session.user = $cookieStore.get('App.session.user')

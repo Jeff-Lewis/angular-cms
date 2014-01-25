@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "cmsSessionService.js",
+  "sourceRoot": "",
+  "sources": [
+    "cmsSessionService.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,CAAA,UAAA;CAAA,CAEA,CAAuC,KAAvC,CAAuC,mBAAvC;CAGE,OAAA,SAAA;CAAA,GAAA,EAAW,IAAX,KAAW;CAAX,CAAA,CAGoB,CAApB,aAAA;CAHA,EAIkB,CAAlB,EAAW,GAAQ,CAAnB,SAAkB;CAAA,EACI,UAApB,IAAA;CADS,IAAO;CAGf,CAAH,CAA0B,MAAA,EAA1B,UAAA;AACU,CAAD,GAAP,EAAA,OAAA,IAAA;CADF,IAA0B;CAV5B,EAAuC;CAFvC"
+}

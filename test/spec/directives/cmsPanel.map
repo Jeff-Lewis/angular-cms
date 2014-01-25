@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "cmsPanel.js",
+  "sourceRoot": "",
+  "sources": [
+    "cmsPanel.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;CAAA,CAAA,UAAA;CAAA,CAEA,CAAgC,KAAhC,CAAgC,YAAhC;CAGE,IAAA,GAAA;CAAA,GAAA,EAAW,IAAX,KAAW;CAAX,EAGC,CADD,CAAA;CACC,CAAO,GAAP,CAAA;CAHD,KAAA;CAKW,CAAqB,CAAd,GAAP,GAAQ,CAAnB,CAAA;CACqB,EAAX,CAAA,CAAR,KAAkB,GAAlB;CADS,IAAO;CARpB,EAAgC;CAFhC"
+}
